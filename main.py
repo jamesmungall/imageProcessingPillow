@@ -55,3 +55,29 @@ def j_rotate():
     img = j_load("buildings.jpg")
     rotated_img = img.rotate(45, expand=True)
     rotated_img.show()
+
+
+def j_convert():
+    img = j_load("buildings.jpg")
+    gray_img = img.convert("L")  # Greyscale
+    gray_img.show()
+
+
+def j_split():
+    img = j_load("buildings.jpg")
+    red, green, blue = img.split()
+    red.show()
+    # Note that this is a greyscale image (type "L")
+
+
+def j_merge():
+    img = j_load("buildings.jpg")
+    red, green, blue = img.split()
+    # put a zero at each point in the zeroed band. 'i' is a dummy variable.
+    zeroed_band = red.point(lambda i: 0)
+    red_merge = Image.merge("RGB", (red, zeroed_band, zeroed_band))
+    green_merge = Image.merge("RGB", (zeroed_band, green, zeroed_band))
+    blue_merge = Image.merge("RGB", (zeroed_band, zeroed_band, blue))
+    rgb_images = (red_merge, green_merge, blue_merge)
+    for i in rgb_images:
+        i.show()
