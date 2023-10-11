@@ -3,6 +3,8 @@ ref:
 https://realpython.com/image-processing-with-the-python-pillow-library/  
 https://pillow.readthedocs.io/en/stable/handbook/tutorial.html  
 
+Pycharm project is: /Users/owner/PycharmProjects/j_pillow  
+
 In 'main.py' are the following functions:  
 
 j_load(filename),  
