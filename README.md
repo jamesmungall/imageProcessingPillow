@@ -18,5 +18,4 @@ j_convert(),
 j_split(),
 j_merge()
 
-
-
+In 'j_slice' an image is split into vertical slices.
