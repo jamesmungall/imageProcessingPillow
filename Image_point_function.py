@@ -5,6 +5,7 @@ I am going to use this function to create a mask image. This image will be a cir
  made from the circular image of the sun, 9_1700.jpg.
 
 The output file is mask.png. This is a greyscale image (mode is L).
+The circle is filled white whilst the remainder is black.
 
 '''
 from PIL import Image
