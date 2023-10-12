@@ -21,8 +21,8 @@ j_merge()
 
 In 'j_slice' an image is split into vertical slices.  
 
-Image_point_function.py  
-# https://www.geeksforgeeks.org/python-pil-image-point-method/  
-# Image.point() Maps this image through a lookup table or function.  
+###Image_point_function.py  
+https://www.geeksforgeeks.org/python-pil-image-point-method/  
+Image.point() Maps this image through a lookup table or function.  
 
 
