@@ -1,18 +1,16 @@
 # https://note.nkmk.me/en/python-pillow-putalpha/
+'''
+An alpha channel is added to the solar image using the 'mask.png' greyscale image
+ created using the Image.point function.
 
+'''
 from PIL import Image
-from PIL import ImageDraw
 
-infile = '3_0171.jpg'
+infile = 'images/3_0171.jpg' # the Solar image to have the alpha channel added.
 
 with Image.open(infile) as im:
-    # im.putalpha(255) # alpha set to 100% transparent
-    #im.show()
-    #print(im.mode)
-
     # You can use an image as the alpha layer.
-    # Draw a white circle on a black background
-    with Image.open('mask.png') as im_mask:
+    with Image.open('images/mask.png') as im_mask:
         im.putalpha(im_mask)
         im.show()
 
