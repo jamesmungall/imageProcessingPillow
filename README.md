@@ -19,5 +19,9 @@ Image.point() Maps this image through a lookup table or function.
 https://note.nkmk.me/en/python-pillow-putalpha/  
 Image.putalpha() Adds an alpha channel to an image.  
 
+### Measure brightness of solar image.py  
+Combines Image_point_function_create_mask.py, Image_paste.py and Image_point_function_measure_brightness.py code.  
+This script takes an SDO solar image and returns the amount of bright and dark areas.   
+
 
 
