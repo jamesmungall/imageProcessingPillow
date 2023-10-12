@@ -25,4 +25,9 @@ In 'j_slice' an image is split into vertical slices.
 https://www.geeksforgeeks.org/python-pil-image-point-method/  
 Image.point() Maps this image through a lookup table or function.  
 
+### Image_putalpha.py  
+https://note.nkmk.me/en/python-pillow-putalpha/  
+Image.putalpha() Adds an alpha channel to an image.  
+
+
 
