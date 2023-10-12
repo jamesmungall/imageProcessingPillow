@@ -8,7 +8,7 @@ https://pillow.readthedocs.io/en/stable/handbook/tutorial.html
 
 j_load(filename), j_save(),j_crop(),j_resize(),j_reduce(),j_thumbnail(),j_transpose(),j_rotate(),j_convert(),j_split(),j_merge()
 
-### 'j_slice'  
+### j_slice.py  
 An image is split into vertical slices.  
 
 ### Image_point_function.py  
