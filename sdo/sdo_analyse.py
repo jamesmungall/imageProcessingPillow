@@ -46,7 +46,7 @@ def j_sdo_analyse(filename):
             'black':n_below(1, alpha)
        }
 
-        print('n_alpha', n_alpha)
-        print('frequencies', make_dicts(im_greyscale, n_alpha))
+        #print('n_alpha', n_alpha)
+        print(filename, make_dicts(im_greyscale, n_alpha))
 
 #j_sdo_analyse(original_filename)
