@@ -23,5 +23,9 @@ Image.putalpha() Adds an alpha channel to an image.
 Combines Image_point_function_create_mask.py, Image_paste.py and Image_point_function_measure_brightness.py code.  
 This script takes an SDO solar image and returns the amount of bright and dark areas.   
 
+### j_image_from_url.py  
+Opens solar image files from https://sdo.gsfc.nasa.gov/assets/img/  
+
+
 
 
